@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Chat with Rooms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">Group Chat with Rooms</div>
+        <div id="roomSelection" class="chat-input">
+            <input type="text" id="roomInput" placeholder="Enter room name...">
+            <button id="joinRoomButton">Join Room</button>
+        </div>
+        <div class="chat-messages" id="chatMessages" style="display: none;"></div>
+        <div class="chat-input" id="chatControls" style="display: none;">
+            <input type="text" id="chatInput" placeholder="Type your message...">
+            <button id="sendButton">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
